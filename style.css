@@ -1,0 +1,48 @@
+body {
+    background-image: url("wp8984722-tic-tac-toe-wallpapers.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.di {
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    font-size: 8vmin;
+    background-color: bisque;
+    color: red;
+    border-color: black;
+}
+
+.reset {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 75px;
+}
+
+h2 {
+    color: black;
+}
+
+#img {
+    height: 200px;
+}
+
+.X {
+    display: none;
+}
